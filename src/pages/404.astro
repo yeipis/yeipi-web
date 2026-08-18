@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="404 - Página no encontrada | Yeipi" description="La página que buscas no existe o ha sido movida.">
+  <section class="py-32 flex flex-col items-center justify-center text-center">
+    <span class="text-xs font-semibold uppercase tracking-widest text-amber-400 px-3 py-1 rounded bg-amber-950 border border-amber-800/60 mb-4">
+      Error 404
+    </span>
+    <h1 class="text-4xl md:text-5xl font-bold text-slate-100 tracking-tight mb-4">
+      Página no encontrada
+    </h1>
+    <p class="text-slate-400 max-w-md mb-8 leading-relaxed">
+      Lo sentimos, la ruta a la que intentas acceder no existe o fue trasladada a otra ubicación.
+    </p>
+    <a 
+      href="/" 
+      class="px-5 py-2.5 rounded-lg bg-amber-400 hover:bg-amber-300 text-slate-950 font-semibold text-sm transition-colors"
+    >
+      Volver al inicio
+    </a>
+  </section>
+</Layout>

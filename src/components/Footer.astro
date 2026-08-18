@@ -1,0 +1,36 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="w-full border-t border-[#242b3b]/60 bg-[#0a0c10] py-12 mt-auto">
+  <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6 text-sm text-slate-500">
+    <div class="flex items-center gap-2">
+      <span class="font-medium text-slate-400">yeipi.dev</span>
+      <span>•</span>
+      <span>© {currentYear} Todos los derechos reservados.</span>
+    </div>
+
+    <div class="flex items-center gap-6">
+      <a 
+        href="https://github.com/yeipis" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="hover:text-slate-300 transition-colors"
+      >
+        GitHub
+      </a>
+      <a 
+        href="mailto:contact@yeipi.dev" 
+        class="hover:text-slate-300 transition-colors"
+      >
+        Contacto
+      </a>
+      <a 
+        href="/#inicio" 
+        class="hover:text-slate-300 transition-colors"
+      >
+        Subir ↑
+      </a>
+    </div>
+  </div>
+</footer>
